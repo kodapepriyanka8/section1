@@ -1,3 +1,4 @@
+#docker image throgh jenkins
 FROM ubuntu:14.04
 RUN apt-get update && apt-get install -y curl vim apache2
 COPY index.html /var/www/html/
